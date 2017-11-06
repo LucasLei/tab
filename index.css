@@ -7,59 +7,45 @@ li {
     list-style: none;
 }
 
-.tab {
-    margin: 0 auto;
-    padding: 0;
-    list-style: none;
-    width: 186px;
-    overflow: hidden;
+.clear {
+    clear: both;
 }
 
-.tab li {
+.tabul {
+    width: 300px;
+    margin: 50px auto;
+    /* overflow: hidden; */
+}
+
+.tabul li {
     float: left;
-    width: 60px;
-    height: 30px;
-    background: #ccc;
-    color: #fff;
-    border: 1px solid #fff;
-    text-align: center;
-    line-height: 30px;
-    /* background-color: blue; */
+    margin-left: 30px;
     cursor: pointer;
-}
-
-.tab li.cur {
+    border: 1px solid #fff;
+    padding: 5px 10px;
     background-color: blue;
 }
 
-
-/* .contents {
+.contents {
     margin: 20px auto;
-} */
-
-.on {
-    display: block;
-    color: blueviolet;
-    background-color: #f99;
 }
 
-.on1 {
-    display: block;
-    color: green;
+.on1,
+.on2,
+.on3 {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    /* padding: 0 15px; */
+    font-size: 15px;
+    color: #fff;
     background-color: #000;
 }
 
-.on2 {
-    display: block;
-    color: #000;
-    background-color: red;
+.div2 {
+    background-color: #0da14b;
 }
 
-div {
-    margin: 0 auto;
-    padding: 0 0 0 10px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
-    display: none;
+.div3 {
+    background-color: #f00;
 }
