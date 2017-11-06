@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.tab {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 186px;
+    overflow: hidden;
+}
+
+.tab li {
+    float: left;
+    width: 60px;
+    height: 30px;
+    background: #ccc;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: blue; */
+    cursor: pointer;
+}
+
+.tab li.cur {
+    background-color: blue;
+}
+
+
+/* .contents {
+    margin: 20px auto;
+} */
+
+.on {
+    display: block;
+    color: blueviolet;
+    background-color: #f99;
+}
+
+.on1 {
+    display: block;
+    color: green;
+    background-color: #000;
+}
+
+.on2 {
+    display: block;
+    color: #000;
+    background-color: red;
+}
+
+div {
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: none;
+}
